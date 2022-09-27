@@ -41,6 +41,29 @@ button {
     background-color: #3882F6;
 }
 
+.call-to-action-background {
+    background-color: #3882F6;
+}
+
+.information-header-text {
+    font-size: 36px;
+    font-weight: 950;
+    color: #1F2937;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.quote-section-background {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
 /* Header */
 
 header,
