@@ -1,4 +1,4 @@
-/* General rules */
+/* -- General rules -- */
 
 * {
     box-sizing: border-box;
@@ -9,7 +9,23 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Font styles and colors */
+/* -- Font styles and colors -- */
+
+/* General */
+
+header,
+.first-section,
+.fourth-section,
+footer {
+    padding: 0 20vw;
+}
+
+.second-section,
+.third-section {
+    padding: 0 27vw;
+}
+
+/* Header and first section */
 
 .dark-background {
     background-color: #1F2937;
@@ -21,16 +37,16 @@ body {
     color: #F9FAF8;
 }
 
-.hero-secondary-text {
+.secondary-text {
     color: #E5E7EB;
 }
 
-.hero-secondary-text-2 {
+.secondary-text-2 {
     color: #1F2937;
 }
 
-.hero-secondary-text,
-.hero-secondary-text-2 {
+.secondary-text,
+.secondary-text-2 {
     font-size: 18px;
     margin: 0;
 }
@@ -51,6 +67,8 @@ button {
     font-size: 15px;
 }
 
+/* Second section */
+
 .card-border {
     border: 3px solid #3882F6;
     border-radius: 1em;
@@ -69,6 +87,8 @@ button {
     margin-top: 0;
     margin-bottom: 40px;
 }
+
+/* Third section */
 
 .quote-section-background {
     background-color: #E5E7EB;
@@ -92,17 +112,22 @@ button {
     padding-right: 35px;
 }
 
-header,
-.first-section,
-.fourth-section,
-footer {
-    padding: 0 20vw;
+/* Fourth section */
+
+.sign-up-title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
 }
 
-.second-section,
-.third-section {
-    padding: 0 27vw;
+.sign-up-button-2 {
+    border: 2.5px solid #F9FAF8;
 }
+
+
+
+/* -- Align elements -- */
 
 /* Header */
 
@@ -197,5 +222,14 @@ a {
 }
 
 /* Fourth section */
+
+.sign-up-container {
+    margin: 100px 0;
+    padding: 50px 100px;
+    border-radius: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 /* Footer */
