@@ -22,8 +22,16 @@ body {
 }
 
 .hero-secondary-text {
-    font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero-secondary-text-2 {
+    color: #1F2937;
+}
+
+.hero-secondary-text,
+.hero-secondary-text-2 {
+    font-size: 18px;
     margin: 0;
 }
 
@@ -52,7 +60,9 @@ button {
     font-weight: 950;
     color: #1F2937;
     text-align: center;
-    padding: 25px 0;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 40px;
 }
 
 .quote-section-background {
@@ -81,8 +91,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .links {
@@ -134,7 +144,34 @@ a {
 
 /* Second section */
 
+.second-section {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
 
+.cards {
+    display: flex;
+    justify-content: space-between;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 1em;
+    margin: 0 auto;
+}
+
+.card-group {
+    max-width: 160px;
+}
+
+.card-text {
+    text-align: center;
+    margin-top: 20px;
+}
 
 /* Third section */
 
