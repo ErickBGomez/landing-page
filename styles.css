@@ -38,7 +38,7 @@ body {
 .header-logo-text {
     color: #F9FAF8;
     font-size: 24px;
-    font-weight: 950;
+    font-weight: 900;
 }
 
 button {
@@ -46,7 +46,7 @@ button {
     border: 0;
     border-radius: 0.5em;
     color: #E5E7EB;
-    font-weight: 800;
+    font-weight: 700;
     background-color: #3882F6;
     font-size: 15px;
 }
@@ -62,7 +62,7 @@ button {
 
 .information-header-text {
     font-size: 36px;
-    font-weight: 950;
+    font-weight: 900;
     color: #1F2937;
     text-align: center;
     padding: 0;
@@ -85,7 +85,7 @@ button {
 .quote-author {
     text-align: right;
     font-size: 25px;
-    font-weight: 800;
+    font-weight: 700;
     color: #1F2937;
     margin: 0;
 }
