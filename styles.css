@@ -125,7 +125,13 @@ button {
     border: 2.5px solid #F9FAF8;
 }
 
+/* Footer */
 
+.footer-text {
+    color: #E5E7EB;
+    margin: 0;
+    text-align: center;
+}
 
 /* -- Align elements -- */
 
@@ -233,3 +239,10 @@ a {
 }
 
 /* Footer */
+
+footer {
+    padding: 35px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
